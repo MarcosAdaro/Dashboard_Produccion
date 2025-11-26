@@ -51,6 +51,14 @@ Fórmula creada para automatizar la decisión de producción:
 
 =SI(F19<=0, ABS(F19)+G19, SI(F19<G19, G19-F19, "No Producir"))
 
+## 📸 Vista del tablero de programación
+
+La siguiente captura muestra el Sheet utilizado por el sector para planificar la producción diaria.  
+El archivo combina stock por depósito, pendientes, promedios de ventas mensuales y una fórmula propia que calcula automáticamente cuánto producir por código.
+
+![Programación de Rotomoldeados]("C:\Users\Santiago\Desktop\planificacion produccion.png")
+
+
 
 Interpretación:
 
