@@ -26,6 +26,7 @@ Planificacion_Produccion/
 └── README.md
 
 
+
 📌 Descripción del sistema
 
 El sheet cuenta con las siguientes columnas principales:
