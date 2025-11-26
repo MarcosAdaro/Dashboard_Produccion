@@ -6,22 +6,24 @@ Este repositorio documenta el sistema que desarrollé para automatizar y simplif
 
 📁 Estructura del archivo
 Planificacion_Produccion/
-  data/
-    pendientes.csv
-    promedios_venta.csv
-  sheets/
-    planificacion_produccion.xlsx
-    flujo_planificacion.md
-  workflow/
-    01_registro_operarios.md
-    02_carga_datos.md
-    03_actualizacion_pendientes.md
-    04_actualizacion_promedios.md
-    05_calculo_disponible.md
-    06_calculo_para_producir.md
-  README.md
-
-
+│
+├── data/
+│   ├── pendientes.csv
+│   └── promedios_venta.csv
+│
+├── sheets/
+│   ├── planificacion_produccion.xlsx
+│   └── flujo_planificacion.md
+│
+├── workflow/
+│   ├── 01_registro_operarios.md
+│   ├── 02_carga_datos.md
+│   ├── 03_actualizacion_pendientes.md
+│   ├── 04_actualizacion_promedios.md
+│   ├── 05_calculo_disponible.md
+│   └── 06_calculo_para_producir.md
+│
+└── README.md
 
 
 📌 Descripción del sistema
