@@ -7,14 +7,24 @@ Este repositorio documenta el sistema que desarrollé para automatizar y simplif
 📁 Estructura del archivo
 Planificacion_Produccion/
 │
-├── sheets/
-│   └── planificacion_produccion.xlsx       # Versión exportada del sheet
+├── data/                                   # Fuentes de datos
+│   ├── pendientes.csv                      # Pendientes → usados por BUSCARX
+│   └── promedios_venta.csv                 # Promedios mensuales → BUSCARX
 │
-├── data/
-│   ├── pendientes.csv                      # Pendientes traídos de otra fuente (BUSCARX)
-│   └── promedios_venta.csv                 # Promedios de ventas por código
+├── sheets/
+│   ├── planificacion_produccion.xlsx       # Versión exportada del sheet
+│   └── flujo_planificacion.md              # Documentación del circuito
+│
+├── workflow/                               # Representación del flujo real
+│   ├── 01_registro_operarios.md            # Operarios → planillas físicas
+│   ├── 02_carga_datos.md                   # Carga manual a Sheets
+│   ├── 03_actualizacion_pendientes.md      # Importación de pendientes
+│   ├── 04_actualizacion_promedios.md       # Actualización mensual ventas
+│   ├── 05_calculo_disponible.md            # Stock A + Stock B – Pendientes
+│   └── 06_calculo_para_producir.md         # Fórmula final de producción
 │
 └── README.md
+
 
 📌 Descripción del sistema
 
