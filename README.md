@@ -6,6 +6,7 @@ Este repositorio documenta el sistema que desarrollé para automatizar y simplif
 
 📁 Estructura del archivo
 Planificacion_Produccion/
+```
 │
 ├── data/
 │   ├── pendientes.csv
@@ -24,20 +25,21 @@ Planificacion_Produccion/
 │   └── 06_calculo_para_producir.md
 │
 └── README.md
-
+```
 
 📌 Descripción del sistema
 
 El sheet cuenta con las siguientes columnas principales:
 
-Columna	Descripción
-CODIGO	Código alfanumérico del artículo.
-STOCK DEPÓSITO A	Stock actualizado del depósito principal.
-STOCK DEPÓSITO B	Stock del segundo depósito.
-PENDIENTES	Traído por BUSCARX desde la solapa PENDIENTES.
-DISPONIBLE	Cálculo automático: A + B – Pendientes.
-PROMEDIO DE VENTAS	BUSCARX desde solapa PROMEDIOS.
-PARA PRODUCIR	Cálculo final de unidades a fabricar.
+-Columna	Descripción
+-CODIGO	Código alfanumérico del artículo.
+-STOCK DEPÓSITO A	Stock actualizado del depósito principal.
+-STOCK DEPÓSITO B	Stock del segundo depósito.
+-PENDIENTES	Traído por BUSCARX desde la solapa PENDIENTES.
+-DISPONIBLE	Cálculo automático: A + B – Pendientes.
+-PROMEDIO DE VENTAS	BUSCARX desde solapa PROMEDIOS.
+-PARA PRODUCIR	Cálculo final de unidades a fabricar.
+
 🧮 Lógica aplicada
 Cálculo del Disponible
 =STOCK_A + STOCK_B - PENDIENTES
