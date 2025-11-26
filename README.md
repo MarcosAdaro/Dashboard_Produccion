@@ -1,4 +1,4 @@
-# Programacion_Produccion
+# Planificacion_Produccion
 Archivo online que facilita la programacion en los sectores productivos
 📘 Planificación de Producción – Automatización en Google Sheets
 
